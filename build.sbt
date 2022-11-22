@@ -9,5 +9,6 @@ lazy val root = project
     scalaVersion := scala3Version,
 
     libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test,
-    libraryDependencies += "io.github.pityka" %% "nspl-awt" % "0.9.0"
+    
+
   )
